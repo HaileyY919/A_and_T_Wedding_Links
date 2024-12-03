@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <style>
+        @font-face {
+            font-family: "GreatVibes";
+            src: url(GreatVibes-Regular.ttf) format('truetype');
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+          
+            background-color: white;
+            width: 400px;
+            height: 900px;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 10px;
+        }
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-family: "GreatVibes", 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 1pt;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .link-btn {
+            margin: 36px 0;
+            display: block;
+            text-decoration: none;
+            background-color: #b1baa7;
+            color: black;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.8s ease-in-out;
+        }
+        .link-btn:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="Photo.jpg" alt="Us" class="profile-img">
+    <div class="name">Tanner Nissen & Annalisa Thompson</div>
+    <div class="description">Thank you for celebrating with us</div>
+
+    <div class="links">
+        <a href="https://example.com" class="link-btn">RSVP</a>
+        <a href="https://example.com" class="link-btn">Registry</a>
+        <a href="https://example.com" class="link-btn">Address</a>
+        <!-- Add more links as needed -->
+    </div>
+</div>
+
+</body>
+</html>
